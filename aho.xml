@@ -1,0 +1,30 @@
+<?xml version ="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE aho [
+ <!ELEMENT   aho (formulaire_hopital)*>
+ <!ELEMENT formulaire_hopital (nom ,prenom ,date_de_naissance, fonction , lieu_dhabibation ,poids, genre, tensoin ,telephone , temperature )>
+ <!ELEMENT nom (#PCDATA)>
+ <!ELEMENT prenom (#PCDATA)>
+ <!ELEMENT date_de_naissance (#PCDATA)>
+ <!ELEMENT fonction (#PCDATA)>
+ <!ELEMENT lieu_dhabibation (#PCDATA)>
+ <!ELEMENT poids (#PCDATA)>
+ <!ELEMENT genre (#PCDATA)>
+ <!ELEMENT tensoin (#PCDATA)>
+ <!ELEMENT telephone (#PCDATA)>
+ <!ELEMENT telephone (#PCDATA)>
+ <!ELEMENT temperature (#PCDATA)>
+]>
+<aho>
+	<formulaire_hopital>
+		<nom>AHOSSEY</nom>
+		<prenom> SONIA FLEUR  </prenom>
+		<date_de_naissance>25 01 1949</date_de_naissance>
+		<fonction> DEVELOPPEUSE JAVA</fonction>
+		<lieu_dhabibation> PORT BOUET</lieu_dhabibation>
+		<poids> 60kg</poids>
+		<genre> feminin</genre>
+		<tensoin> 12.6</tensoin>
+		<telephone> 05958079</telephone>
+		<temperature> 37°</temperature>
+	</formulaire_hopital>
+</aho>
