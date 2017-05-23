@@ -1,0 +1,31 @@
+<?xml version ="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE sheisthecode[
+<!-- renseigner plusieurs personnes -->
+<!ELEMENT sheisthecode (personne*)>
+<!-- donnees personnelles de chaque personnes -->
+<!ELEMENT personne (nom, prenom , date_de_naissance, formation_de_base, specialisation)>
+<!-- nom de famille -->
+<!ELEMENT nom (#PCDATA)>
+<!-- prénom -->
+<!ELEMENT prenom (#PCDATA)>
+<!-- date de naissance -->
+<!ELEMENT date_de_naissance (#PCDATA)>
+<!-- formation avant de suivre le programme -->
+<!ELEMENT formation_de_base (#PCDATA)>
+<!-- formation pendant le programme -->
+<!ELEMENT specialisation (#PCDATA)>
+
+]>
+
+<sheisthecode>
+  <personne>
+    <nom>AHOSSEY</nom>
+    <prenoms>ADZO ENA SANDRINE</prenoms>
+    <date_de_naissance>09-01-1984</date_de_naissance>
+    <formation_de_base>ELECTRONIQUE</formation_de_base>
+    <specialisation>coding</specialisation>
+
+  </personne>
+</sheisthecode>
+
+
